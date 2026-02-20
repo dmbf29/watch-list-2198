@@ -59,6 +59,7 @@ bundle install
 Create the database:
 
 ```bash
+rails db:drop
 rails db:create
 ```
 
