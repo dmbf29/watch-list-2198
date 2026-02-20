@@ -68,3 +68,5 @@ gem "rspec-rails", group: [ :test ]
 gem "sassc-rails"
 gem "simple_form"
 gem "sprockets-rails"
+gem "dotenv-rails", groups: [ :development, :test ]
+gem "cloudinary", "~> 1.16.0"

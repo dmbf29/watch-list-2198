@@ -5,6 +5,8 @@
       <i class="fa-solid fa-plus"></i>
     <% end %>
   </div>
+  <%#= image_tag source, alt: "text" %>
+  <%= cl_image_tag @list.photo.key, width: 400, height: 300, crop: :fill %>
   <div class="cards mb-5">
     <% @list.bookmarks.each do |bookmark| %>
       <div class="card" style="width: 18rem;">
